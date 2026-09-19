@@ -195,7 +195,9 @@ O pipeline segue a Arquitetura Medalhão e foi ramificado em um notebook por cam
 
 A camada Bronze guarda o dado como veio da fonte, apenas com metadados de controle. A Silver aplica as transformações de limpeza e padronização, gravando em Delta Lake. A Gold monta o modelo dimensional, também em Delta, e registra as tabelas no Unity Catalog. A análise consome as tabelas Gold.
 
-Todas as camadas são persistidas no volume `dados_mvp`, com as pastas `bronze`, `silver` e `gold`. Os scripts estão disponíveis no repositório público deste projeto: [LINK DO REPOSITÓRIO GITHUB].
+Todas as camadas são persistidas no volume `dados_mvp`, com as pastas `bronze`, `silver` e `gold`. Os scripts estão disponíveis no repositório público deste projeto: https://github.com/thallesmagnum-lang/mvp-datasus-internacoes
+
+
 
 ### Persistência das camadas na nuvem (screenshots)
 
